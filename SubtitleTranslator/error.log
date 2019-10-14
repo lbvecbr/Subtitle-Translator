@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "D:\Work\python_projects\Subtitle-Translator\SubtitleTranslator\libs/applibs\bugreporter\bugreporter.py", line 14, in <module>
+    from kivymd.button import MDFlatButton
+ModuleNotFoundError: No module named 'kivymd.button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Work\python_projects\Subtitle-Translator\SubtitleTranslator\main.py", line 48, in <module>
+    from bugreporter import BugReporter
+  File "D:\Work\python_projects\Subtitle-Translator\SubtitleTranslator\libs/applibs\bugreporter\__init__.py", line 17, in <module>
+    from . bugreporter import BugReporter
+  File "D:\Work\python_projects\Subtitle-Translator\SubtitleTranslator\libs/applibs\bugreporter\bugreporter.py", line 16, in <module>
+    raise ImportError('Install package KivyMD')
+ImportError: Install package KivyMD
